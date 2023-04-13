@@ -33,6 +33,10 @@ p {
 img {
     width: 80%;
   }
+
+img:hover {
+    cursor: pointer;
+}
   
   footer {
     margin-top: 5%;
@@ -42,3 +46,7 @@ img {
   
   }
   
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
